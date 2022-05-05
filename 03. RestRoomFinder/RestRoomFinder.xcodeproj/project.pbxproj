@@ -1,0 +1,482 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A4427B2C28242B8500465A65 /* RestRoomFinderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4427B2B28242B8500465A65 /* RestRoomFinderApp.swift */; };
+		A4427B2E28242B8500465A65 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4427B2D28242B8500465A65 /* ContentView.swift */; };
+		A4427B3028242B8800465A65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4427B2F28242B8800465A65 /* Assets.xcassets */; };
+		A4427B3328242B8800465A65 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4427B3228242B8800465A65 /* Preview Assets.xcassets */; };
+		A4427B3B28242BA400465A65 /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4427B3A28242BA400465A65 /* View+Extensions.swift */; };
+		A4427B3D28242BD600465A65 /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4427B3C28242BD600465A65 /* String+Extensions.swift */; };
+		A4427B4528242C4A00465A65 /* HomeScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4427B4428242C4A00465A65 /* HomeScreenView.swift */; };
+		A4427B4728242C5700465A65 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4427B4628242C5700465A65 /* Constants.swift */; };
+		A4427B4A28242CC200465A65 /* Actions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4427B4928242CC200465A65 /* Actions.swift */; };
+		A4427B4E28242CE100465A65 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4427B4D28242CE100465A65 /* Store.swift */; };
+		A4427B5028242CF300465A65 /* AppReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4427B4F28242CF300465A65 /* AppReducer.swift */; };
+		A4427B5328242F0E00465A65 /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4427B5228242F0E00465A65 /* WebService.swift */; };
+		A4427B5528242F2500465A65 /* Restroom.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4427B5428242F2500465A65 /* Restroom.swift */; };
+		A4427B572824348C00465A65 /* RestroomsReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4427B562824348C00465A65 /* RestroomsReducer.swift */; };
+		A4427B592824360F00465A65 /* RestroomsMiddleware.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4427B582824360F00465A65 /* RestroomsMiddleware.swift */; };
+		A4427B5B2824371F00465A65 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4427B5A2824371F00465A65 /* LocationManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A4427B2828242B8500465A65 /* RestRoomFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RestRoomFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4427B2B28242B8500465A65 /* RestRoomFinderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestRoomFinderApp.swift; sourceTree = "<group>"; };
+		A4427B2D28242B8500465A65 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A4427B2F28242B8800465A65 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A4427B3228242B8800465A65 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A4427B3A28242BA400465A65 /* View+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
+		A4427B3C28242BD600465A65 /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
+		A4427B4428242C4A00465A65 /* HomeScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenView.swift; sourceTree = "<group>"; };
+		A4427B4628242C5700465A65 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		A4427B4928242CC200465A65 /* Actions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Actions.swift; sourceTree = "<group>"; };
+		A4427B4D28242CE100465A65 /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
+		A4427B4F28242CF300465A65 /* AppReducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppReducer.swift; sourceTree = "<group>"; };
+		A4427B5128242E8500465A65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		A4427B5228242F0E00465A65 /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
+		A4427B5428242F2500465A65 /* Restroom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restroom.swift; sourceTree = "<group>"; };
+		A4427B562824348C00465A65 /* RestroomsReducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestroomsReducer.swift; sourceTree = "<group>"; };
+		A4427B582824360F00465A65 /* RestroomsMiddleware.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestroomsMiddleware.swift; sourceTree = "<group>"; };
+		A4427B5A2824371F00465A65 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A4427B2528242B8500465A65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A4427B1F28242B8500465A65 = {
+			isa = PBXGroup;
+			children = (
+				A4427B2A28242B8500465A65 /* RestRoomFinder */,
+				A4427B2928242B8500465A65 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A4427B2928242B8500465A65 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A4427B2828242B8500465A65 /* RestRoomFinder.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A4427B2A28242B8500465A65 /* RestRoomFinder */ = {
+			isa = PBXGroup;
+			children = (
+				A4427B5128242E8500465A65 /* Info.plist */,
+				A4427B4328242C0600465A65 /* Models */,
+				A4427B4228242BFF00465A65 /* Store */,
+				A4427B4128242BF900465A65 /* Services */,
+				A4427B4028242BF100465A65 /* Utils */,
+				A4427B3F28242BEB00465A65 /* Views */,
+				A4427B3E28242BE300465A65 /* Mangers */,
+				A4427B3928242B9600465A65 /* Extensions */,
+				A4427B2B28242B8500465A65 /* RestRoomFinderApp.swift */,
+				A4427B2D28242B8500465A65 /* ContentView.swift */,
+				A4427B2F28242B8800465A65 /* Assets.xcassets */,
+				A4427B3128242B8800465A65 /* Preview Content */,
+			);
+			path = RestRoomFinder;
+			sourceTree = "<group>";
+		};
+		A4427B3128242B8800465A65 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A4427B3228242B8800465A65 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A4427B3928242B9600465A65 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A4427B3A28242BA400465A65 /* View+Extensions.swift */,
+				A4427B3C28242BD600465A65 /* String+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		A4427B3E28242BE300465A65 /* Mangers */ = {
+			isa = PBXGroup;
+			children = (
+				A4427B5A2824371F00465A65 /* LocationManager.swift */,
+			);
+			path = Mangers;
+			sourceTree = "<group>";
+		};
+		A4427B3F28242BEB00465A65 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A4427B4428242C4A00465A65 /* HomeScreenView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A4427B4028242BF100465A65 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				A4427B4628242C5700465A65 /* Constants.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		A4427B4128242BF900465A65 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				A4427B5228242F0E00465A65 /* WebService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		A4427B4228242BFF00465A65 /* Store */ = {
+			isa = PBXGroup;
+			children = (
+				A4427B4C28242CD600465A65 /* Reducers */,
+				A4427B4B28242CCD00465A65 /* Middlewares */,
+				A4427B4828242CB800465A65 /* Actions */,
+				A4427B4D28242CE100465A65 /* Store.swift */,
+			);
+			path = Store;
+			sourceTree = "<group>";
+		};
+		A4427B4328242C0600465A65 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A4427B5428242F2500465A65 /* Restroom.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A4427B4828242CB800465A65 /* Actions */ = {
+			isa = PBXGroup;
+			children = (
+				A4427B4928242CC200465A65 /* Actions.swift */,
+			);
+			path = Actions;
+			sourceTree = "<group>";
+		};
+		A4427B4B28242CCD00465A65 /* Middlewares */ = {
+			isa = PBXGroup;
+			children = (
+				A4427B582824360F00465A65 /* RestroomsMiddleware.swift */,
+			);
+			path = Middlewares;
+			sourceTree = "<group>";
+		};
+		A4427B4C28242CD600465A65 /* Reducers */ = {
+			isa = PBXGroup;
+			children = (
+				A4427B4F28242CF300465A65 /* AppReducer.swift */,
+				A4427B562824348C00465A65 /* RestroomsReducer.swift */,
+			);
+			path = Reducers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A4427B2728242B8500465A65 /* RestRoomFinder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4427B3628242B8800465A65 /* Build configuration list for PBXNativeTarget "RestRoomFinder" */;
+			buildPhases = (
+				A4427B2428242B8500465A65 /* Sources */,
+				A4427B2528242B8500465A65 /* Frameworks */,
+				A4427B2628242B8500465A65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RestRoomFinder;
+			productName = RestRoomFinder;
+			productReference = A4427B2828242B8500465A65 /* RestRoomFinder.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A4427B2028242B8500465A65 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					A4427B2728242B8500465A65 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = A4427B2328242B8500465A65 /* Build configuration list for PBXProject "RestRoomFinder" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A4427B1F28242B8500465A65;
+			productRefGroup = A4427B2928242B8500465A65 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A4427B2728242B8500465A65 /* RestRoomFinder */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A4427B2628242B8500465A65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4427B3328242B8800465A65 /* Preview Assets.xcassets in Resources */,
+				A4427B3028242B8800465A65 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A4427B2428242B8500465A65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4427B3D28242BD600465A65 /* String+Extensions.swift in Sources */,
+				A4427B2E28242B8500465A65 /* ContentView.swift in Sources */,
+				A4427B5528242F2500465A65 /* Restroom.swift in Sources */,
+				A4427B4528242C4A00465A65 /* HomeScreenView.swift in Sources */,
+				A4427B592824360F00465A65 /* RestroomsMiddleware.swift in Sources */,
+				A4427B5028242CF300465A65 /* AppReducer.swift in Sources */,
+				A4427B572824348C00465A65 /* RestroomsReducer.swift in Sources */,
+				A4427B4E28242CE100465A65 /* Store.swift in Sources */,
+				A4427B3B28242BA400465A65 /* View+Extensions.swift in Sources */,
+				A4427B2C28242B8500465A65 /* RestRoomFinderApp.swift in Sources */,
+				A4427B5B2824371F00465A65 /* LocationManager.swift in Sources */,
+				A4427B4728242C5700465A65 /* Constants.swift in Sources */,
+				A4427B5328242F0E00465A65 /* WebService.swift in Sources */,
+				A4427B4A28242CC200465A65 /* Actions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A4427B3428242B8800465A65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A4427B3528242B8800465A65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A4427B3728242B8800465A65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RestRoomFinder/Preview Content\"";
+				DEVELOPMENT_TEAM = WQWCUMF3L5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RestRoomFinder/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Restoom Finder requires acces to your location to find a better restroom";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Restoom Finder requires acces to your location to find a better restroom";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.luannluna.RestRoomFinder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A4427B3828242B8800465A65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RestRoomFinder/Preview Content\"";
+				DEVELOPMENT_TEAM = WQWCUMF3L5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RestRoomFinder/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Restoom Finder requires acces to your location to find a better restroom";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Restoom Finder requires acces to your location to find a better restroom";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.luannluna.RestRoomFinder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A4427B2328242B8500465A65 /* Build configuration list for PBXProject "RestRoomFinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4427B3428242B8800465A65 /* Debug */,
+				A4427B3528242B8800465A65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4427B3628242B8800465A65 /* Build configuration list for PBXNativeTarget "RestRoomFinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4427B3728242B8800465A65 /* Debug */,
+				A4427B3828242B8800465A65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A4427B2028242B8500465A65 /* Project object */;
+}
